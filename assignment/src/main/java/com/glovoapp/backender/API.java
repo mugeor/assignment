@@ -23,7 +23,7 @@ class API {
     API(@Value("${backender.welcome_message}") String welcomeMessage, OrderRepository orderRepository) {
         this.welcomeMessage = welcomeMessage;
         this.orderRepository = orderRepository;
-        
+        //
     }
 
     @RequestMapping("/")
